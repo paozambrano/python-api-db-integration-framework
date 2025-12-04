@@ -1,5 +1,5 @@
 import pymysql
-from .config import Config
+from config.config import Config
 
 class MySQLHandler:
     def __init__(self):
